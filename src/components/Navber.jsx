@@ -39,10 +39,14 @@ const Navber = () => {
       {
         menu && 
         <div className='md:hidden bg-gray-900 animate-in slide-in-from-top duration-300'>
-          <div className='px-4 py-4 sm:py-6 space-y-3 sm:space-y-4 flex flex-col'>
-             <a href='#features' className='text-gray-300 hover:text-white text-sm lg:text-base' onClick={() => setMenu(false)}>Features</a>
-              <a href='#pricing' className='text-gray-300 hover:text-white text-sm lg:text-base' onClick={() => setMenu(false)}>Pricing</a>
-              <a href='#testimonials' className='text-gray-300 hover:text-white text-sm lg:text-base' onClick={() => setMenu(false)}>Testimonials</a>
+          <div className='px-4 py-4 sm:py-6 space-y-3 sm:space-y-4 flex flex-col justify-center items-center'>
+             <a href='#features' className='text-gray-300 hover:text-white text-sm lg:text-base hover:border-b transition-all' onClick={() => setMenu(false)}>Features</a>
+
+            <a href='#pricing' className='text-gray-300 hover:text-white text-sm lg:text-base hover:border-b transition-all' onClick={() => setMenu(false)}>Pricing</a>
+
+            <a href='#pricing' className='text-gray-300 hover:text-white text-sm lg:text-base hover:border-b transition-all' onClick={() => setMenu(false)}>Testimonails</a>
+
+
           </div>
         </div>
       }
