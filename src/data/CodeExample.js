@@ -31,9 +31,16 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className='hero'>
-      <h1>Hero Section</h1>
-      <p>This is the hero component example.</p>
+    <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 bg-[#0f0f0f]">
+      
+      <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white mb-4 leading-tight">
+        Hero Section
+      </h1>
+
+      <p className="text-base sm:text-lg lg:text-2xl text-gray-300 max-w-2xl">
+        This is the hero component example.
+      </p>
+
     </section>
   );
 };
