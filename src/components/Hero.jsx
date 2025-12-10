@@ -27,17 +27,18 @@ const Hero = () => {
 
 
   return (
-    <section className='relative min-h-screen flex items-center justify-center pt-16 sm:pt-20 lg:pt-8 overflow-hidden'>
+    <section className='relative min-h-screen flex items-center justify-center pt-20 sm:pt-20 lg:pt-8 overflow-hidden'>
       <div className='max-w-7xl mx-auto text-center relative w-full'>
-      <div className='max-w-7xl mx-auto flex flex-col lg:grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center relative'>
+      <div className='max-w-7xl mx-auto flex flex-col lg:grid lg:grid-cols-2 text-center lg:text-left gap-6 sm:gap-8 lg:gap-12 items-center relative'>
 
         {/* LEFT SIDE */}
-        <div className=''>
-          <div className='inline-flex items-center space-x-2 px-3 sm:px-4 py-2 bg-gray-900 border border-gray-500/20 rounded-full mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700'>
+        <div>
+          <div className='inline-flex items-center space-x-2 px-3 sm:px-4 py-2 bg-gray-900 border border-gray-500/20 rounded-full mb-1.5 sm:mb-2 animate-in slide-in-from-bottom duration-700'>
             <Sparkle className='w-4 h-4'/>
             <span className='text-xs sm:text-sm'>Introducing CodeRush AI</span>
           </div>
-          <h1 className='text-5xl sm:text-3xl md:text-4xl lg:text-6xl font-semibold mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700 delay-100 leading-tight'>
+
+          <h1 className='text-5xl sm:text-3xl md:text-4xl lg:text-6xl font-semibold mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700 delay-100 '>
             <span className='text-white font-bold block mb-1 sm:mb-2'>Code Faster</span>
             <span className='text-white font-bold block mb-1 sm:mb-2'>Build Better</span>
             <span className='text-white font-bold block mb-1 sm:mb-2'>With CodeRush AI</span>
@@ -52,8 +53,8 @@ const Hero = () => {
             </button>
 
             <button className='cursor-pointer group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gray-400 text-black rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-102 flex items-center justify-center space-x-2'>
-              <div className='bg-white/10 rounded-full group-hover:bg-white/20 duration-300 transition-colors'>
-                <Play />
+              <div>
+                <Play className='w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300'/>
               </div>
               <span>Watch Demo</span>
             </button>
