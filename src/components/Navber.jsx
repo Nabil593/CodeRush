@@ -12,7 +12,7 @@ const Navber = () => {
         <div className='flex justify-between items-center h-14'>
 
           {/* LOGO */}
-          <h1 className='lg:text-3xl text-2xl font-bold'>CodeRush.</h1>
+          <h1 className='lg:text-3xl text-2xl font-bold'>CODERUSH.</h1>
 
           {/* NAV LINKS */}
           <div className='hidden md:flex space-x-6 lg:space-x-8'>
