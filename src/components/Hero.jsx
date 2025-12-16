@@ -31,7 +31,7 @@ const Hero = () => {
       <div className='max-w-7xl mx-auto text-center relative w-full'>
       <div className='max-w-7xl mx-auto flex flex-col  text-center  gap-6 sm:gap-8 items-center relative'>
 
-        {/* LEFT SIDE */}
+        {/* LEFT SIDE */} 
         <div className='flex flex-col items-center justify-center lg:py-18 sm:py-10 py-8'>
           <div className='inline-flex items-center space-x-2 px-3 sm:px-4 py-2 bg-gray-900 border border-gray-500/20 rounded-full mb-1.5 sm:mb-2 animate-in slide-in-from-bottom duration-700'>
             <Sparkle className='w-4 h-4'/>
