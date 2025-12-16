@@ -5,6 +5,8 @@ const Navber = () => {
   
   const [menu, setMenu] = useState(false);
 
+  
+
 
   return (
     <nav className='fixed top-0 w-full z-50 bg-[#0f1114] transition-all duration-300'>
